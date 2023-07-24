@@ -4,7 +4,7 @@ import {GifGridCategory} from './components/GifGridCategory'
 import { Container } from 'react-bootstrap';
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['Goku']);
 
     const onAddCategory = (newCategory) => {
         if (categories.includes(newCategory)) return;
